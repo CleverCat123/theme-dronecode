@@ -6,15 +6,15 @@
     position: relative;
     right: 0px;
     top: 0px;
-    width: 1192px;
-    perspective-origin: 596px 30px;
-    transform-origin: 596px 30px;
+    width: 1534px;
+    perspective-origin: 767px 30px;
+    transform-origin: 767px 30px;
     font: normal normal 400 normal 17px / 31px Roboto;
 }/*#DIV_1*/
 
 #DIV_1:after {
     clear: both;
-    content: '"' '"';
+    content:' ';
     display: table;
     height: 0px;
     visibility: hidden;
@@ -25,7 +25,7 @@
 }/*#DIV_1:after*/
 
 #DIV_1:before {
-    content: '"' '"';
+    content:' ';
     display: table;
     height: 0px;
     width: 0px;
@@ -48,12 +48,12 @@
     perspective-origin: 83.3281px 15px;
     transform-origin: 83.3281px 15px;
     font: normal normal 400 normal 17px / 31px Roboto;
-    margin: 0px 23.8281px 0px 0px;
+    margin: 0px 30.6719px 0px 0px;
 }/*#DIV_2*/
 
 #DIV_2:after {
     clear: both;
-    content: '""';
+    content: ' ';
     display: block;
     height: 0px;
     visibility: hidden;
@@ -113,7 +113,7 @@
 
 #DIV_5:after {
     clear: both;
-    content: '""';
+    content: ' ';
     display: block;
     height: 0px;
     visibility: hidden;
@@ -245,7 +245,7 @@
 
 #I_12:after {
     color: rgb(255, 146, 1);
-    content: '""';
+    content: ' ';
     cursor: pointer;
     display: block;
     height: 2px;
@@ -284,7 +284,7 @@
 
 #I_13:after {
     color: rgb(255, 146, 1);
-    content: '""';
+    content: ' ';
     cursor: pointer;
     display: block;
     height: 2px;
@@ -305,7 +305,7 @@
 
 #I_13:before {
     color: rgb(255, 146, 1);
-    content: '""';
+    content: ' ';
     cursor: pointer;
     display: block;
     height: 2px;
@@ -533,7 +533,7 @@
 
 #I_24:after {
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     cursor: pointer;
     display: block;
     height: 2px;
@@ -576,7 +576,7 @@
 
 #I_25:after {
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     cursor: pointer;
     display: block;
     height: 2px;
@@ -599,7 +599,7 @@
 
 #I_25:before {
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     cursor: pointer;
     display: block;
     height: 2px;
@@ -682,7 +682,7 @@
 #A_28:after {
     bottom: -6px;
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     display: block;
     height: 0px;
     left: 0px;
@@ -756,7 +756,7 @@
 #A_30:after {
     bottom: -6px;
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     cursor: auto;
     display: block;
     height: 0px;
@@ -894,7 +894,7 @@
 #A_41:after {
     bottom: -6px;
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     cursor: auto;
     display: block;
     height: 0px;
@@ -968,7 +968,7 @@
 #A_50:after {
     bottom: -6px;
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     display: block;
     height: 0px;
     left: 0px;
@@ -1041,7 +1041,7 @@
 #A_52:after {
     bottom: -6px;
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     display: block;
     height: 0px;
     left: 0px;
@@ -1114,7 +1114,7 @@
 #A_54:after {
     bottom: -6px;
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     display: block;
     height: 0px;
     left: 0px;
@@ -1187,7 +1187,7 @@
 #A_56:after {
     bottom: -6px;
     color: rgb(136, 136, 136);
-    content: '""';
+    content: ' ';
     display: block;
     height: 0px;
     left: 0px;
