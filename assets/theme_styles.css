@@ -1,38 +1,40 @@
+#Main {
+
+    margin-top: 25px;
+    margin-left: 10px;
+    bottom: 0px;
+    box-sizing: border-box;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 1534px;
+    perspective-origin: 767px 30px;
+    transform-origin: 767px 30px;
+    font: normal normal 400 normal 17px / 31px Roboto;
+}/*#DIV_1*/
 
 
-li {
+#picture {
+    bottom: 0px;
+    box-sizing: border-box;
     float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    font: normal normal 500 normal 16px / 22.4px "Fira Sans";
-    color: rgb(136, 136, 136);
-    
-}
-
-ul {
-    list-style-type: none;
-}
+    height: 30px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 166.656px;
+    z-index: 10;
+    perspective-origin: 83.3281px 15px;
+    transform-origin: 83.3281px 15px;
+    font: normal normal 400 normal 17px / 31px Roboto;
+    margin: 0px 30.6719px 0px 0px;
+}/*#DIV_2*/
 
 
-.float-left-child {
-  float: left
-}
 
-
-.parent {
-  padding: 1rem;
-  
-}
-
-.picture {
-  padding: 1.9rem;
-}
 
 #IMG_4 {
     box-sizing: border-box;
@@ -53,3 +55,423 @@ ul {
     outline: rgb(68, 68, 68) none 0px;
     transition: opacity 0.4s ease 0s;
 }/*#IMG_4*/
+
+#navigation {
+    box-sizing: border-box;
+    float: right;
+    height: 60px;
+    width: 963.641px;
+    perspective-origin: 481.813px 30px;
+    transform-origin: 481.813px 30px;
+    font: normal normal 400 normal 17px / 31px Roboto;
+}/*#DIV_5*/
+
+
+
+
+#NAV_14 {
+    box-sizing: border-box;
+    height: 0px;
+    width: 963.641px;
+    perspective-origin: 481.813px 0px;
+    transform-origin: 481.813px 0px;
+    font: normal normal 400 normal 17px / 31px Roboto;
+}/*#NAV_14*/
+
+
+
+
+
+
+#Ulhomepage {
+    box-sizing: border-box;
+    float: right;
+    height: 60px;
+    min-height: 1px;
+    width: 813.641px;
+    perspective-origin: 406.813px 30px;
+    transform-origin: 406.813px 30px;
+    font: normal normal 400 normal 17px / 1px Roboto;
+    list-style: none outside none;
+    margin: 0px;
+    padding: 0px;
+    transition: padding 0.8s ease 0s, margin 0.25s ease 0s;
+}/*#UL_26*/
+
+#LI_HOMEPAGE {
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 62.4844px;
+    z-index: 10;
+    perspective-origin: 31.2344px 30px;
+    transform-origin: 31.2344px 30px;
+    font: normal normal 400 normal 12px / 0px Roboto;
+    list-style: none outside none;
+}/*#LI_27*/
+
+#A_HOMEPAGE {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: block;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(136, 136, 136);
+    top: 0px;
+    width: 42.4844px;
+    z-index: 10;
+    column-rule-color: rgb(136, 136, 136);
+    perspective-origin: 21.2344px 30px;
+    transform-origin: 21.2344px 30px;
+    caret-color: rgb(136, 136, 136);
+    border: 0px none rgb(136, 136, 136);
+    font: normal normal 500 normal 16px / 22.4px "Fira Sans";
+    list-style: none outside none;
+    margin: 0px 10px;
+    outline: rgb(136, 136, 136) none 0px;
+    padding: 4px 0px 34px;
+    transition: color 0.2s linear 0s;
+}/*#A_28*/
+
+
+
+#LI_dynamometer{
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 251.609px;
+    z-index: 10;
+    perspective-origin: 125.797px 30px;
+    transform-origin: 125.797px 30px;
+    font: normal normal 400 normal 12px / 0px Roboto;
+    list-style: none outside none;
+}/*#LI_29*/
+
+#A_dynamometer {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    cursor: auto;
+    display: block;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(136, 136, 136);
+    top: 0px;
+    width: 231.609px;
+    z-index: 10;
+    column-rule-color: rgb(136, 136, 136);
+    perspective-origin: 115.797px 30px;
+    transform-origin: 115.797px 30px;
+    caret-color: rgb(136, 136, 136);
+    border: 0px none rgb(136, 136, 136);
+    font: normal normal 500 normal 16px / 22.4px "Fira Sans";
+    list-style: none outside none;
+    margin: 0px 10px;
+    outline: rgb(136, 136, 136) none 0px;
+    padding: 4px 0px 34px;
+    transition: color 0.2s linear 0s;
+}/*#A_30*/
+
+
+
+#A_33, #A_35, #A_39, #A_44, #A_48 {
+    box-sizing: border-box;
+    color: rgb(204, 204, 204);
+    display: block;
+    position: relative;
+    text-align: left;
+    text-decoration: none solid rgb(204, 204, 204);
+    z-index: 10;
+    column-rule-color: rgb(204, 204, 204);
+    caret-color: rgb(204, 204, 204);
+    background: rgb(28, 28, 28) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(204, 204, 204);
+    font: normal normal 400 normal 12px / 13px Roboto;
+    list-style: none outside none;
+    outline: rgb(204, 204, 204) none 0px;
+    padding: 14px;
+    transition: none 0s ease 0s;
+}/*#A_33, #A_35, #A_39, #A_44, #A_48*/
+
+#A_37, #A_46 {
+    box-sizing: border-box;
+    color: rgb(204, 204, 204);
+    display: block;
+    position: relative;
+    text-align: left;
+    text-decoration: none solid rgb(204, 204, 204);
+    z-index: 10;
+    column-rule-color: rgb(204, 204, 204);
+    caret-color: rgb(204, 204, 204);
+    background: rgb(28, 28, 28) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(204, 204, 204);
+    font: normal normal 400 normal 12px / 13px Roboto;
+    list-style: none outside none;
+    outline: rgb(204, 204, 204) none 0px;
+    padding: 14px;
+    transition: none 0s ease 0s;
+}/*#A_37, #A_46*/
+
+#LI_40 {
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 111.5px;
+    z-index: 10;
+    perspective-origin: 55.75px 30px;
+    transform-origin: 55.75px 30px;
+    font: normal normal 400 normal 12px / 0px Roboto;
+    list-style: none outside none;
+}/*#LI_40*/
+
+#A_41 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    cursor: auto;
+    display: block;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(136, 136, 136);
+    top: 0px;
+    width: 91.5px;
+    z-index: 10;
+    column-rule-color: rgb(136, 136, 136);
+    perspective-origin: 45.75px 30px;
+    transform-origin: 45.75px 30px;
+    caret-color: rgb(136, 136, 136);
+    border: 0px none rgb(136, 136, 136);
+    font: normal normal 500 normal 16px / 22.4px "Fira Sans";
+    list-style: none outside none;
+    margin: 0px 10px;
+    outline: rgb(136, 136, 136) none 0px;
+    padding: 4px 0px 34px;
+    transition: color 0.2s linear 0s;
+}/*#A_41*/
+
+
+
+#LI_49 {
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    height: 60px;
+    left: 10px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 104.438px;
+    z-index: 10;
+    perspective-origin: 52.2188px 30px;
+    transform-origin: 52.2188px 30px;
+    font: normal normal 400 normal 12px / 0px Roboto;
+    list-style: none outside none;
+}/*#LI_49*/
+
+
+
+
+#LI_51 {
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 134.734px;
+    z-index: 10;
+    perspective-origin: 67.3594px 30px;
+    transform-origin: 67.3594px 30px;
+    font: normal normal 400 normal 12px / 0px Roboto;
+    list-style: none outside none;
+}/*#LI_51*/
+
+
+#A_50 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: block;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(136, 136, 136);
+    top: 0px;
+    width: 84.4375px;
+    z-index: 10;
+    column-rule-color: rgb(136, 136, 136);
+    perspective-origin: 42.2188px 30px;
+    transform-origin: 42.2188px 30px;
+    caret-color: rgb(136, 136, 136);
+    border: 0px none rgb(136, 136, 136);
+    font: normal normal 500 normal 16px / 22.4px "Fira Sans";
+    list-style: none outside none;
+    margin: 0px 10px;
+    outline: rgb(136, 136, 136) none 0px;
+    padding: 4px 0px 34px;
+    transition: color 0.2s linear 0s;
+}/*#A_50*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#A_52 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: block;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(136, 136, 136);
+    top: 0px;
+    width: 114.734px;
+    z-index: 10;
+    column-rule-color: rgb(136, 136, 136);
+    perspective-origin: 57.3594px 30px;
+    transform-origin: 57.3594px 30px;
+    caret-color: rgb(136, 136, 136);
+    border: 0px none rgb(136, 136, 136);
+    font: normal normal 500 normal 16px / 22.4px "Fira Sans";
+    list-style: none outside none;
+    margin: 0px 10px;
+    outline: rgb(136, 136, 136) none 0px;
+    padding: 4px 0px 34px;
+    transition: color 0.2s linear 0s;
+}/*#A_52*/
+
+
+#LI_53 {
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 96.4844px;
+    z-index: 10;
+    perspective-origin: 48.2344px 30px;
+    transform-origin: 48.2344px 30px;
+    font: normal normal 400 normal 12px / 0px Roboto;
+    list-style: none outside none;
+}/*#LI_53*/
+
+#A_54 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: block;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(136, 136, 136);
+    top: 0px;
+    width: 76.4844px;
+    z-index: 10;
+    column-rule-color: rgb(136, 136, 136);
+    perspective-origin: 38.2344px 30px;
+    transform-origin: 38.2344px 30px;
+    caret-color: rgb(136, 136, 136);
+    border: 0px none rgb(136, 136, 136);
+    font: normal normal 500 normal 16px / 22.4px "Fira Sans";
+    list-style: none outside none;
+    margin: 0px 10px;
+    outline: rgb(136, 136, 136) none 0px;
+    padding: 4px 0px 34px;
+    transition: color 0.2s linear 0s;
+}/*#A_54*/
+
+
+#LI_55 {
+    bottom: 0px;
+    box-sizing: border-box;
+    float: left;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 52.3906px;
+    z-index: 10;
+    perspective-origin: 26.1875px 30px;
+    transform-origin: 26.1875px 30px;
+    font: normal normal 400 normal 12px / 0px Roboto;
+    list-style: none outside none;
+}/*#LI_55*/
+
+#A_56 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: block;
+    height: 60px;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-decoration: none solid rgb(136, 136, 136);
+    top: 0px;
+    width: 32.3906px;
+    z-index: 10;
+    column-rule-color: rgb(136, 136, 136);
+    perspective-origin: 16.1875px 30px;
+    transform-origin: 16.1875px 30px;
+    caret-color: rgb(136, 136, 136);
+    border: 0px none rgb(136, 136, 136);
+    font: normal normal 500 normal 16px / 22.4px "Fira Sans";
+    list-style: none outside none;
+    margin: 0px 10px;
+    outline: rgb(136, 136, 136) none 0px;
+    padding: 4px 0px 34px;
+    transition: color 0.2s linear 0s;
+}/*#A_56*/
+
