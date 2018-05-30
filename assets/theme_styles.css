@@ -1,11 +1,11 @@
 /* Menu bar at top of page.*/
-#common_dronecode_menu{position: absolute; z-index:1; top: 0px; height:60px; padding:1px; width:100%; background-color:black; margin: 0 auto; font-size:14px; margin-top: 25px;}
+#common_dronecode_menu{position: absolute; z-index:1; top: 0px; height:60px; padding:1px; width:100%; background-color:black; margin: 0 auto; font-size:14px;}
 
 .common_menu_logo{float:left; padding-left:10px;}
 .common_menu_logo img {max-height:60px;} /*Would like to control max height, but seems to be controlled by javascript */
 
 .common_menu_options{float:right; padding-top:2px;}
-.common_dronecode_menu_item{float:left; padding-left:20px;}
+.common_dronecode_menu_item{float:left; padding-left:20px;margin-top: 25px;}
 body .common_menu_options a{color:WhiteSmoke;}
 
 
@@ -16,7 +16,7 @@ body .common_menu_options a{color:WhiteSmoke;}
 
 /* Push existing docs down to menu height */
 .book-summary, .book-body {
-    top: 22px;
+    top: 60px;
 }
 
 
