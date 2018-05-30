@@ -3,99 +3,49 @@
 
 {% block body %}
     {% block top_menu_bar %}
-    <!-- ##HW Add dronecode menu -->
+    <!-- ##HW Add menu -->
    		
-	
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- ##If language is English Version, then go to this part -->
 {% if  book.language=="en"%}
 
-<header id="top">
-	<div id="DIV_1">
-	<div id="DIV_2">
-		 <a id="A_3" href="https://www.rcbenchmark.com"><img alt="Thrust Stand and Dynamometer" src="https://www.rcbenchmark.com/wp-content/uploads/2017/04/LogoNoir.png" id="IMG_4" /></a>
-	</div>
-	<!--/span_3-->
-
-	<div id="DIV_5">
-		<div id="DIV_8">
-			<div id="DIV_9">
-				 <a href="#sidewidgetarea" id="A_10"> <span id="SPAN_11"> <i id="I_12"><i id="I_13"></i></i></span></a>
-			</div>
-		</div>
-		<nav id="NAV_14" style=" margin-left: 115px;">
-			<ul id="UL_15">
-				<li id="LI_20">
-					<div id="DIV_21">
-						 <a href="#sidewidgetarea" id="A_22"> <span id="SPAN_23"> <i id="I_24"><i id="I_25"></i></i></span></a>
-					</div>
-				</li>
-			</ul>
-			<ul id="UL_26">
-				<li id="LI_27">
-					<a href="https://www.rcbenchmark.com/" id="A_28">Home</a>
-				</li>
-				<li id="LI_53">
-					<a href="https://www.rcbenchmark.com/contact-us/" id="A_54">Contact us</a>
-				</li>
-				<li id="LI_55">
-					<a href="https://www.rcbenchmark.com/blog/" id="A_56">Blog</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-	<!--/span_9-->
-
-</div>
-		
-	</header>
+<div id="common_dronecode_menu">
+      <div class="common_menu_logo large_version">
+        <a href="https://www.rcbenchmark.com/">
+          <img src="{{ "gitbook-plugin-theme-dronecode/images/LogoNoir.png"|resolveAsset }}" alt="Dronecode logo (large)" />
+        </a>
+      </div>
+      <div class="common_menu_logo small_version">
+        <a href="https://www.rcbenchmark.com/">
+          <img src="{{ "gitbook-plugin-theme-dronecode/images/LogoNoir.png"|resolveAsset }}" alt="Dronecode logo (small)" />
+        </a>
+      </div>
+      <div class="common_menu_options">
+        <div id="menu_dc" class="common_dronecode_menu_item"><a href="https://www.rcbenchmark.com/">Home</a></div>
+        <div class="common_dronecode_menu_item"><a href="https://www.rcbenchmark.com/contact-us/">Contact us</a></div>
+        <div class="common_dronecode_menu_item large_version"><a href="https://www.rcbenchmark.com/blog/">Blog</a></div>
+      </div>
+    </div>
 
 {% else %}
 
 <!-- ##If language is Chinese Version, then go to this part -->
-<header id="top">
-	<div id="DIV_1">
-	<div id="DIV_2">
-		 <a id="A_3" href="https://www.rcbenchmark.com"><img alt="Thrust Stand and Dynamometer" src="https://www.rcbenchmark.com/wp-content/uploads/2017/04/LogoNoir.png" id="IMG_4" /></a>
-	</div>
-	<!--/span_3-->
-
-	<div id="DIV_5">
-		<div id="DIV_8">
-			<div id="DIV_9">
-				 <a href="#sidewidgetarea" id="A_10"> <span id="SPAN_11"> <i id="I_12"><i id="I_13"></i></i></span></a>
-			</div>
-		</div>
-		<nav id="NAV_14" style=" margin-left: 115px;">
-			<ul id="UL_15">
-
-				<li id="LI_20">
-					<div id="DIV_21">
-						 <a href="#sidewidgetarea" id="A_22"> <span id="SPAN_23"> <i id="I_24"><i id="I_25"></i></i></span></a>
-					</div>
-				</li>
-			</ul>
-			<ul id="UL_26">
-				<li id="LI_27">
-					<a href="https://www.rcbenchmark.com/" id="A_28">主页</a>
-				</li>
-				<li id="LI_53">
-					<a href="https://www.rcbenchmark.com/contact-us/" id="A_54">联系我们</a>
-				</li>
-				<li id="LI_55">
-					<a href="https://www.rcbenchmark.com/blog/" id="A_54">博客</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-	<!--/span_9-->
-
-</div>
-		
-	</header>
+<div id="common_dronecode_menu">
+      <div class="common_menu_logo large_version">
+        <a href="https://www.rcbenchmark.com/zh/">
+          <img src="{{ "gitbook-plugin-theme-dronecode/images/LogoNoir.png"|resolveAsset }}" alt="Dronecode logo (large)" />
+        </a>
+      </div>
+      <div class="common_menu_logo small_version">
+        <a href="https://www.rcbenchmark.com/zh/">
+          <img src="{{ "gitbook-plugin-theme-dronecode/images/LogoNoir.png"|resolveAsset }}" alt="Dronecode logo (small)" />
+        </a>
+      </div>
+      <div class="common_menu_options">
+        <div id="menu_dc" class="common_dronecode_menu_item"><a href="https://www.rcbenchmark.com/zh/">主页</a></div>
+        <div class="common_dronecode_menu_item"><a href="https://www.rcbenchmark.com/zh/contact-us/">联系我们</a></div>
+        <div class="common_dronecode_menu_item large_version"><a href="https://www.rcbenchmark.com/zh/blog/">博客</a></div>
+      </div>
+    </div>
 
 	
 
